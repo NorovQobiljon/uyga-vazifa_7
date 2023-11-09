@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,600;0,700;1,500&family=Schoolbell&family=Work+Sans:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Schoolbell', cursive;
+font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+header{
+    background-color: #06394a;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    color: rgba(161,181,187,1);
+    font-weight: 600;
+    font-size: 18ox;
+    border-bottom: 1px solid transparent;
+}
+nav a:hover{
+    color: white;
+    border-color: white;
+}
+nav button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    background-color: #145E76;
+    border: none;
+}
+.head{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+.header-right img{
+    width: 400px;
+}
+.my-self{
+background-color: #042531;
+border-radius: 25px;
+display: inline-block;
+padding: 10px 20px;
+font-family: 'Schoolbell', cursive;
+}
+.header-title{
+    font-size: 60px;
+    width: 540px;
+    padding: 20px 0px;
+}
+.header-text{
+    font-size: 18px;
+    width: 540px;
+    color: rgba(132,148,153,1);
+}
+.header-btns button{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.header-btns button:hover{
+    background: #FFA63A;
+    color:blue
+}
+.header-btns{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+
